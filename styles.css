@@ -1,0 +1,24 @@
+* {
+  font-family: "Space Mono", monospace;
+}
+
+nav {
+  background-color: #475569;
+  color: white;
+}
+
+#content {
+  height: 100vh;
+  background-image: url("../src/cafe.jpg");
+  background-size: cover;
+
+  padding: 5rem;
+}
+
+button {
+  all: unset;
+}
+
+.container {
+  display: grid;
+}
