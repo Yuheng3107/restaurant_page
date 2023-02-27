@@ -22,11 +22,6 @@ button {
   all: unset;
 }
 
-.col {
-  height: 60vh;
-  width: 60vh;
-}
-
 img {
   object-fit: cover;
 }
