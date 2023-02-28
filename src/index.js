@@ -1,4 +1,4 @@
-import CafeBackground from "./cafe.jpg";
+import CafeBackground from "../cafe.jpg";
 import makeHomePage from "./homepage";
 import makeMenuPage from "./menu";
 import makeContactPage from "./contact";
