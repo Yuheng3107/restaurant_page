@@ -2,13 +2,14 @@ import CafeBackground from "./cafe.jpg";
 import makeHomePage from "./homepage";
 import makeMenuPage from "./menu";
 import makeContactPage from "./contact";
+import "./styles.css";
 
-const navbar = document.querySelector("nav");
 const content = document.querySelector("#content");
 const brand = document.querySelector("#brand");
 const contact = document.querySelector("#contact");
 const menu = document.querySelector("#menu");
 const displayModalButton = document.querySelector("#display-modal");
+const body = document.querySelector("body");
 
 makeHomePage(content);
 brand.addEventListener("click", () => {
