@@ -11,6 +11,8 @@ const menu = document.querySelector("#menu");
 const displayModalButton = document.querySelector("#display-modal");
 const body = document.querySelector("body");
 
+body.style.backgroundImage = CafeBackground;
+
 makeHomePage(content);
 brand.addEventListener("click", () => {
   makeHomePage(content);
