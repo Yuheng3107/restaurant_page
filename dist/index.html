@@ -47,6 +47,12 @@
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item p-2 fs-5">
               <button id="contact" type="button">Contact</button>
+              <button
+                class="d-none"
+                data-bs-toggle="modal"
+                data-bs-target="#modal"
+                id="display-modal"
+              ></button>
             </li>
             <li class="nav-item ms-3 p-2 fs-5">
               <button id="menu" type="button">Menu</button>
@@ -55,6 +61,25 @@
         </div>
       </div>
     </nav>
-    <div id="content" class="mt-5"></div>
+    <div id="content" class="mt-5">
+      <div class="modal" tabindex="-1" id="modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header text-align-center">
+              <h4>Contact Us</h4>
+              <button
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <p>Telephone: +65 1234 5678</p>
+              <p>Address: Singapore, Singapore</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
