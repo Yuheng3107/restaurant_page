@@ -11,7 +11,8 @@ export default function createMenuPage(content) {
   let row = document.createElement("div");
   row.classList.add(
     "row",
-    "row-cols-3",
+    "row-cols-1",
+    "row-cols-lg-3",
     "gy-5",
     "d-flex",
     "justify-content-around"
